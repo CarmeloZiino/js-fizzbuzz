@@ -8,3 +8,29 @@
 // 1. scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
+
+
+// 1. Programma -> Numeri da 1 a 100
+
+
+
+for (let number = 1; number <= 100; number++) {
+console.log(number); 
+
+}
+
+
+// 2. Per ogni Multiplo di 3 stampare Fizz al posto del numero
+
+
+
+
+
+
+// 3. Per ogni Multiplo di 5 stampare Buzz al posto del numero
+
+
+
+
+// 2. Per ogni Multiplo di 3 e di 5 stampare FizzBuzz al posto del numero
+
