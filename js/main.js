@@ -14,23 +14,33 @@
 
 
 
-for (let number = 1; number <= 100; number++) {
-console.log(number); 
+for (let i = 1; i <= 100; i++) {
+
+if (i % 3 === 0){                // 2. Per ogni Multiplo di 3 stampare Fizz al posto del numero
+
+    console.log("Fizz"); 
+
+
+} else if (i % 5 ===0){         // 3. Per ogni Multiplo di 5 stampare Buzz al posto del numero
+    console.log ("Buzz");
+
+} else if ((i % 3 === 0)&&(i % 5 === 0)){ 
+    console.log ("FizzBuzz");   
+}
+else {
+    console.log (i);
+}
 
 }
 
 
-// 2. Per ogni Multiplo di 3 stampare Fizz al posto del numero
 
 
 
 
 
 
-// 3. Per ogni Multiplo di 5 stampare Buzz al posto del numero
 
 
 
-
-// 2. Per ogni Multiplo di 3 e di 5 stampare FizzBuzz al posto del numero
 
