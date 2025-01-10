@@ -12,11 +12,7 @@
 
 // 1. Programma -> Numeri da 1 a 100
 
-
-
 for (let i = 1; i <= 100; i++) {
-
-
     if ((i % 3 === 0)&&(i % 5 === 0)){ // 4. Per ogni Multiplo di 3 e di 5 stampare FizzBuzz al posto del numero
         console.log ("FizzBuzz"); 
     } else if (i % 3 === 0){                // 2. Per ogni Multiplo di 3 stampare Fizz al posto del numero
