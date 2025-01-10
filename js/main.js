@@ -16,18 +16,14 @@
 
 for (let i = 1; i <= 100; i++) {
 
-if (i % 3 === 0){                // 2. Per ogni Multiplo di 3 stampare Fizz al posto del numero
 
+    if ((i % 3 === 0)&&(i % 5 === 0)){ // 4. Per ogni Multiplo di 3 e di 5 stampare FizzBuzz al posto del numero
+        console.log ("FizzBuzz"); 
+    } else if (i % 3 === 0){                // 2. Per ogni Multiplo di 3 stampare Fizz al posto del numero
     console.log("Fizz"); 
-
-
-} else if (i % 5 ===0){         // 3. Per ogni Multiplo di 5 stampare Buzz al posto del numero
+    } else if (i % 5 ===0){         // 3. Per ogni Multiplo di 5 stampare Buzz al posto del numero
     console.log ("Buzz");
-
-} else if ((i % 3 === 0)&&(i % 5 === 0)){ 
-    console.log ("FizzBuzz");   
-}
-else {
+    } else {
     console.log (i);
 }
 
